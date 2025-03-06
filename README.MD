@@ -2,7 +2,7 @@
 
 Welcome to **My Portfolio**! This is the personal portfolio of **Prajwal Gurnule**, showcasing my skills, projects, experience, education, certifications, and more. It’s built using React, TypeScript, Tailwind CSS, and other modern web technologies. 
 
-Check it out live at: [https://deepakmodi.vercel.app/](https://deepakmodi.vercel.app/)
+Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://prajwal-gurnules-portfolio.vercel.app/)
 
 ---
 
@@ -36,13 +36,6 @@ Check it out live at: [https://deepakmodi.vercel.app/](https://deepakmodi.vercel
 
 ---
 
-## 📸 Screenshots
-
-Here’s a glimpse of the portfolio:
-
-![Home Screenshot](./public/assets/portfolio.png)
-
----
 
 ## 📜 License
 
@@ -54,6 +47,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feel free to reach out to me through any of the following channels:
 
-- **Email**: [deepakmodi@example.com](mailto:deepakmodi867@gmail.com)
-- **LinkedIn**: [linkedin.com/in/deepakmodi1](https://linkedin.com/in/deepakmodi1)
-- **GitHub**: [github.com/decodewithdeepak](https://github.com/decodewithdeepak)
+- **Email**: [iamprajwalgurnule@gmail.com](mailto:iamprajwalgurnule@gmail.com)
+- **LinkedIn**: [linkedin.com/in/prajwal-gurnule](https://linkedin.com/in/prajwal-gurnule)
+- **GitHub**: [github.com/prajwalgurnule](https://github.com/prajwalgurnule)
