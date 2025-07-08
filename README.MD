@@ -1,4 +1,4 @@
-# Prajwal Gurnule - Portfolio Website for a Full Stack Developer
+# Prajwal Gurnule - Portfolio Website
 
 Welcome to **My Portfolio**! This is my personal portfolio for showcasing my skills, projects, experience, education, certifications, and more. It’s built using React, TypeScript, Tailwind CSS, and other modern web technologies. It fetches data from various APIs to display the latest information, such as GitHub repositories. The portfolio is responsive, interactive, and optimized for performance.
 
@@ -12,7 +12,6 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
 - **Smooth Animations**: Interactive elements, hover effects, and smooth scrolling give the user a pleasant experience.
 - **Dynamic Content**: Fetches data from various APIs to display the latest information, such as GitHub repositories, LeetCode submissions, and blogs.
 - **Interactive Icons**: Utilizes Lucide icons for a modern and interactive design.
-- **SVG Signature Animation**: Framer-Motion is used to animate the SVG signature on the loading page.
 - **Dark Mode**: Built with dark mode support using a simple toggle to switch between light and dark themes.
 - **Custom Sections**:
   - **Home**: Introduction, Typewriter effect with dynamic roles, and links to key sections.
@@ -115,7 +114,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 Feel free to reach out to me through any of the following channels:
 
-<<<<<<< HEAD
 - **Email**: [iamprajwalgurnule@gmail.com](mailto:iamprajwalgurnule@gmail.com)
 - **LinkedIn**: [linkedin.com/in/prajwal-gurnule](https://linkedin.com/in/prajwal-gurnule)
 - **GitHub**: [github.com/prajwalgurnule](https://github.com/prajwalgurnule)
