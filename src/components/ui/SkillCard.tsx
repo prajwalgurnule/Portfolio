@@ -1,33 +1,31 @@
-import React from 'react';
-import { IconType } from 'react-icons';
-import { LucideIcon } from 'lucide-react';
+import React from "react";
+import { IconType } from "react-icons";
+import { LucideIcon } from "lucide-react";
 
 interface SkillCardProps {
   name: string;
   icon: LucideIcon | IconType;
-  category: string;
-  description: string;
+  color?: string;
+  url?: string;
 }
 
-export function SkillCard({ name, icon: Icon, category, description }: SkillCardProps) {
+export function SkillCard({ name, icon: Icon, color, url }: SkillCardProps) {
   return (
-    <div className="group relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-1">
-      {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-
-      <div className="relative z-10">
-        <div className="flex items-center gap-4 mb-4">
-          {/* Icon Container */}
-          <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg group-hover:scale-105 transition-transform duration-300">
-            <Icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">{name}</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">{category}</p>
-          </div>
-        </div>
-        <p className="text-gray-600 dark:text-gray-300">{description}</p>
+    <a 
+      href={url} 
+      target="_blank" 
+      rel="noopener noreferrer"      
+      className="group relative flex flex-col items-center p-2 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md transition-transform duration-300 transform hover:-translate-y-2 hover:shadow-2xl 
+        before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-transparent before:to-[var(--glow-color,rgba(255,255,255,0))] before:opacity-0 before:blur-lg before:transition-all before:duration-500 hover:before:opacity-50"
+      style={{ "--glow-color": color } as React.CSSProperties}
+    >
+      {/* Icon with Background */}
+      <div className="p-3 rounded-full transition-all duration-300 group-hover:scale-110" style={{ backgroundColor: `${color}1A` }}>
+        <Icon size={50} color={color} className="group-hover:brightness-100" />
       </div>
-    </div>
+
+      {/* Skill Name */}
+      <span className="mt-2 text-sm font-medium text-gray-900 dark:text-gray-100">{name}</span>
+    </a>
   );
 }

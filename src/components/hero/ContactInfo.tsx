@@ -14,8 +14,8 @@ function ContactItem({ icon, text, href }: ContactItemProps) {
       href={href}
       className={`flex items-center gap-2 px-4 py-1 ${href ? 'hover:scale-105' : ''} transition-transform duration-200`}
     >
-      <span className="text-blue-600 dark:text-blue-400">{icon}</span>
-      <span className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+      <span className="text-purple-600 dark:text-purple-400">{icon}</span>
+      <span className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">
         {text}
       </span>
     </Component>

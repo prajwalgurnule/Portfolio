@@ -13,9 +13,9 @@ export function AboutCard({ icon: Icon, title, description, color }: AboutCardPr
     <div className="relative group">
       {/* Gradient Background */}
       <div
-        className={`absolute inset-0 ${color} rounded-xl blur-xl opacity-30 group-hover:opacity-80 transition-opacity duration-300 pointer-events-none`}
+        className={`absolute inset-0 ${color} rounded-xl blur-xl opacity-20 group-hover:opacity-60 transition-opacity duration-300 pointer-events-none`}
       />
-      <div className="relative bg-white dark:bg-gray-800 p-6 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-1">
+      <div className="relative bg-white dark:bg-gray-900 p-6 border border-gray-200 dark:border-gray-700 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-1">
         <div className="flex items-center mb-4 space-x-4">
           {/* Icon Container */}
           <div className={`p-3 ${color} rounded-lg`}>

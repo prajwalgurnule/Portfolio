@@ -50,7 +50,7 @@ export function TypeWriter({
       className={`relative font-semibold ${
         gradient
           ? "bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent"
-          : "text-blue-600 dark:text-blue-400"
+          : "text-purple-600 dark:text-purple-400"
       }`}
     >
       <span className="whitespace-nowrap">{currentText}</span>

@@ -16,8 +16,8 @@ function ActionButton({ href, icon, text, primary = false }: ActionButtonProps) 
       href={href}
       className={`flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 rounded-md text-sm sm:text-base ${
         primary
-          ? 'bg-blue-600 text-white hover:bg-blue-700'
-          : 'text-blue-600 dark:text-blue-400 border-2 border-blue-600'
+          ? 'bg-purple-600 text-white hover:bg-purple-700'
+          : 'text-purple-600 dark:text-purple-400 border-2 border-purple-600'
       } transition-transform duration-300 transform hover:scale-105`}
     >
       <span>{icon}</span>

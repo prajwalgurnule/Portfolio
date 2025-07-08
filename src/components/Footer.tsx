@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from './Link';
 import { SocialLinks } from './hero/SocialLinks';
+import { FaReact } from 'react-icons/fa';
+import { SiVite } from 'react-icons/si';
 
 interface FooterLinkProps {
   href: string;
@@ -11,7 +13,7 @@ function FooterLink({ href, children }: FooterLinkProps) {
   return (
     <Link
       href={href}
-      className="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+      className="text-gray-500 hover:text-purple-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"
     >
       {children}
     </Link>
@@ -22,21 +24,22 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const links = [
-    { href: '#home', label: 'Home' },
+   { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
     { href: '#skills', label: 'Skills' },
-    { href: '#projects', label: 'Projects' },
     { href: '#experience', label: 'Experience' },
+    { href: '#projects', label: 'Projects' },
     { href: '#education', label: 'Education' },
     { href: '#certifications', label: 'Certifications' },
-    { href: '#contact', label: 'Contact' },
+    { href: '#github', label: 'GitHub' },
+    // { href: '#leetcode', label: 'Leetcode' },
+    // { href: '#badges', label: 'Badges' },
+     { href: '#contact', label: 'Contact Me' }, 
   ];
 
   return (
-    <footer className="relative bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-purple-500/5" />
-
+    <footer className="relative bg-gradient-to-br from-gray-50 via-slate-100/80 to-purple-50/60 dark:from-black dark:via-gray-950/80 dark:to-slate-950/60 border-t border-gray-200 dark:border-gray-800">
+      
       <div className="container mx-auto px-6 py-8 relative">
         <div className="flex flex-col items-center gap-6">
           {/* Navigation Links */}
@@ -53,11 +56,24 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="text-sm text-gray-500 dark:text-gray-400 text-center">
-            <p>© {currentYear} Prajwal Gurnule | All rights reserved.</p>
-            <p className="flex items-center justify-center gap-1">
-              Made with <span className="text-red-500 animate-pulse">❤️</span> in India
+            <p>© {currentYear} Prajwal Gurnule. All rights reserved.</p>
+            <p className="flex items-center justify-center gap-2">
+              Built with <FaReact className="w-6 h-6 text-blue-500 animate-spin" /> using
+              <SiVite className="w-6 h-6 text-yellow-500 animate-pulse" />
             </p>
           </div>
+
+          {/* Views Counter */}
+          {/* <div className="flex justify-center">
+            <a href="https://hits.sh/prajwalgurnule.tech/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://hits.sh/prajwalgurnule.tech.svg?style=for-the-badge&label=Views&color=2a6acf&labelColor=1f2937"
+                alt="Views"
+                className="rounded-lg"
+              />
+            </a>
+          </div> */}
+
         </div>
       </div>
     </footer>

@@ -21,7 +21,7 @@ export function Link({ href, children, className = '', onClick }: LinkProps) {
     <a
       href={href}
       onClick={handleClick}
-      className={`text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors ${className}`}
+      className={`text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors ${className}`}
     >
       {children}
     </a>
