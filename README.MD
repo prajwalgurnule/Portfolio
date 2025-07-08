@@ -1,6 +1,6 @@
 # Prajwal Gurnule - Portfolio Website for a Full Stack Developer
 
-Welcome to **My Portfolio**! This is my personal portfolio for showcasing my skills, projects, experience, education, certifications, and more. It’s built using React, TypeScript, Tailwind CSS, and other modern web technologies. It fetches data from various APIs to display the latest information, such as GitHub repositories, LeetCode submissions, and blogs. The portfolio is responsive, interactive, and optimized for performance.
+Welcome to **My Portfolio**! This is my personal portfolio for showcasing my skills, projects, experience, education, certifications, and more. It’s built using React, TypeScript, Tailwind CSS, and other modern web technologies. It fetches data from various APIs to display the latest information, such as GitHub repositories. The portfolio is responsive, interactive, and optimized for performance.
 
 Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://prajwal-gurnules-portfolio.vercel.app/)
 
@@ -22,7 +22,6 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
   - **GitHub**: Fetches and displays my GitHub repositories with a link to view the profile.
   - **LeetCode**: Fetches and displays my LeetCode submissions.
   - **Badges**: Displays badges from various platforms like GitHub, LeetCode, and HackerRank.
-  - **Blogs**: Fetches and displays my blogs from Hashnode API.
   - **Experience**: Details about my work experience with a timeline layout.
   - **Education**: My academic journey including degree and institution.
   - **Certifications**: Certificates and courses completed with a link to verify.
@@ -34,7 +33,7 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
 
 ## 📂 **Directory Structure**
 ```
-└── decodewithdeepak-portfolio/
+└── Portfolio/
     ├── README.MD
     ├── LICENSE
     ├── eslint.config.js
@@ -55,7 +54,6 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
         ├── vite-env.d.ts
         ├── components/
         │   ├── About.tsx
-        │   ├── Badges.tsx
         │   ├── Blogs.tsx
         │   ├── Certifications.tsx
         │   ├── Contact.tsx
@@ -73,13 +71,8 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
         │   │   ├── ActionButtons.tsx
         │   │   ├── ContactInfo.tsx
         │   │   └── SocialLinks.tsx
-        │   ├── loading/
-        │   │   ├── HandwritingAnimation.tsx
-        │   │   ├── LoadingScreen.tsx
-        │   │   └── svgPaths.ts
         │   └── ui/
         │       ├── AboutCard.tsx
-        │       ├── BlogCard.tsx
         │       ├── CertificationCard.tsx
         │       ├── ContactForm.tsx
         │       ├── CustomCursor.tsx
@@ -126,12 +119,7 @@ Feel free to reach out to me through any of the following channels:
 - **Email**: [iamprajwalgurnule@gmail.com](mailto:iamprajwalgurnule@gmail.com)
 - **LinkedIn**: [linkedin.com/in/prajwal-gurnule](https://linkedin.com/in/prajwal-gurnule)
 - **GitHub**: [github.com/prajwalgurnule](https://github.com/prajwalgurnule)
-=======
-- **Email**: [deepakmodi8676@gmail.com](mailto:deepakmodi8676@gmail.com)
-- **LinkedIn**: [linkedin.com/in/deepakmodi1](https://linkedin.com/in/deepakmodi1)
-- **Website**: [deepakmodi.vercel.app](https://deepakmodi.vercel.app)
 
 ---
 
 ### 🔥 Made with ❤️ by **Prajwal Gurnule**
->>>>>>> a00ead8 (Update the Complete UI)
