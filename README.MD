@@ -20,7 +20,10 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
   - **Projects**: Showcase of personal and professional projects.
   - **GitHub**: Fetches and displays my GitHub repositories with a link to view the profile.
   - **LeetCode**: Fetches and displays my LeetCode submissions.
+<<<<<<< HEAD
   - **Badges**: Displays badges from various platforms like GitHub, LeetCode, and HackerRank.
+=======
+>>>>>>> 557b76b (Modification Done)
   - **Experience**: Details about my work experience with a timeline layout.
   - **Education**: My academic journey including degree and institution.
   - **Certifications**: Certificates and courses completed with a link to verify.
@@ -78,14 +81,12 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
         │       ├── EducationCard.tsx
         │       ├── ProjectCard.tsx
         │       ├── SectionTitle.tsx
-        │       ├── ThemeToggle.tsx
-        │       ├── Timeline.tsx
+        │       ├── ThemeToggle.tsx 
         │       └── TypeWriter.tsx
         └── hooks/
-            ├── useAnimatedLogo.ts
-            ├── useBlogs.ts
-            ├── useLoading.ts
             └── useTheme.ts
+            └── useLoading.ts
+
 ```
 
 ---
@@ -97,8 +98,6 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
 - **Tailwind CSS**: A utility-first CSS framework to rapidly build custom designs.
 - **Lucide Icons**: Used for interactive and sleek icons.
 - **Vercel**: For fast deployment and hosting.
-- **GitHub API**: To fetch and display repositories.
-- **Hashnode API**: To fetch and display latest blogs.
 - **Framer-Motion**: For svg signature loading animation.
 
 ---
@@ -109,6 +108,7 @@ Check it out live at: [https://prajwal-gurnules-portfolio.vercel.app/](https://p
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ---
+<<<<<<< HEAD
 
 ## 📬 Contact
 
@@ -121,3 +121,5 @@ Feel free to reach out to me through any of the following channels:
 ---
 
 ### 🔥 Made with ❤️ by **Prajwal Gurnule**
+=======
+>>>>>>> 557b76b (Modification Done)
